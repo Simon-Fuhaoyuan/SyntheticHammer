@@ -777,13 +777,13 @@ MonoBehaviour:
   barScaleLowerbound: 0.8
   barRotationUpperbound: 15
   barRotationLowerbound: -15
-  maxNum: 1
+  maxNum: 4
   hammers:
   - {fileID: 450363548}
   - {fileID: 1922589591}
   - {fileID: 934701679}
   - {fileID: 1303046099}
-  directory: ./data/
+  directory: ./new_data/
   calibrationBalls:
   - {fileID: 927724051}
   - {fileID: 1962346003}

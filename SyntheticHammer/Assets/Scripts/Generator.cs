@@ -151,8 +151,8 @@ public class Generator : MonoBehaviour
     void RecordKeypoint()
     {
         StringBuilder stringBuilder = new StringBuilder();
-        Vector3 barPosition = bar.transform.position;
-        Vector3 headPosition = head.transform.position;
+        Vector3 barPosition = bar.transform.localPosition;
+        Vector3 headPosition = head.transform.localPosition;
         stringBuilder.Append(string.Format("# Generated keypoints for hammer_{0:d}.obj\n", counter));
         stringBuilder.Append(string.Format("{0} {1} {2}\n", -barPosition.x, -barPosition.y, barPosition.z));
         if (head.name.Contains("Cylinder"))
